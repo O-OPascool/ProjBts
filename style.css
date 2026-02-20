@@ -1,0 +1,252 @@
+@font-face {
+    font-family: korean;
+    src: url(Korean_Calligraphy.ttf);
+}
+
+h1 {
+    color: aqua;
+}
+
+.mab {
+    color: pink;
+}
+
+.mab2 {
+    color: azure;
+}
+
+.a-propos {
+    color: black;
+}
+
+.a-propos2 {
+    color: rgb(144, 0, 255);
+}
+
+body {
+    background: linear-gradient(0.25turn, #ff8800be, #f1a949d2, #ffffffbe);
+}
+
+a.no-underline {
+    text-decoration: none;
+}
+
+strong.ao2 {
+    color: palevioletred;
+}
+
+.A2title {
+    text-shadow: 2px 2px 2px rgb(236, 95, 95);
+    font-family: "Kalnia Glaze", serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-variation-settings: "wdth" 200;
+}
+
+.txt {
+    text-align: left;
+    font-family: "Tilt Neon", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "XROT" 0, "YROT" 0;
+}
+
+.T1korean {
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    font-family: "korean";
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: black;
+    font-size: 2em;
+}
+
+.T2korean {
+    text-shadow: 2px 2px 2px rgb(255, 0, 170);
+    font-family: "korean";
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: rgb(255, 0, 170);
+    font-size: 2em;
+}
+
+a[title="Cliquez ici"] img:hover,
+img:hover {
+    opacity: 0.5;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: plum;
+}
+
+.cta:hover {
+    text-decoration: none;
+    background: linear-gradient(rgb(255, 0, 149), white);
+    border-radius: 4px;
+}
+
+.cta {
+    display: flex;
+    width: fit-content;
+    text-decoration: none;
+    padding: 15px 20px;
+    color: rgb(11, 72, 184);
+    margin: 5px 2px;
+    border-radius: 4px;
+    border: 2px solid black;
+    list-style: none;
+}
+
+.nav {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.p2, .p3 {
+    display: flex;
+    place-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 15px;
+}
+
+.p2 img, .p3 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.lll {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    width: 33.33%;
+    display: flex;
+}
+
+.abb1231, .abb11231 {
+    border: none;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.rmborderbot {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+form {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  box-sizing: border-box; 
+  font-family: sans-serif; 
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+  margin-right: 10px;
+  vertical-align: top; 
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: calc(100% - 105px); 
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1em; 
+  box-sizing: border-box;
+}
+
+input:required, 
+textarea:required {
+  background-color: #F2A3BB;
+  border-color: #d988a2; 
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%; 
+  padding: 0.8em;
+  background-color: #333; 
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease; 
+}
+
+input[type="submit"]:hover {
+  background-color: #555; 
+}
+
+@media screen and (max-width: 1200px) {
+    .item {
+        width: 50%; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .item {
+        width: 100%; 
+    }
+    
+    .abb11231, .lll {
+        display: none;
+    }
+
+    label {
+        display: block;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+    }
+    iframe {
+    max-width: 100%;
+}
+
+.p2, .p3 {
+  flex-direction: column;
+}
+}
